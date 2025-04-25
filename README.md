@@ -46,7 +46,7 @@ To explore each lab:
 2. Navigate to the desired lab folder:
 cd XMLlab2025/Lab1
 
-3.Open the XML files using your preferred text editor or XML IDE.
+3. Open the XML files using your preferred text editor or XML IDE.
 
 Prerequisites
 Basic understanding of XML and related technologies.

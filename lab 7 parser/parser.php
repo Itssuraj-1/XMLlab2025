@@ -11,5 +11,5 @@ foreach ($xml->book as $book) {
     echo "". $book->description . "<br>";
     echo "<br>";
     echo "
-    ". $book->url . EOL;
+    <hr>";
 }

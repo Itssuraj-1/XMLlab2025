@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="employee.xsd" >
+    <name>John Smith</name>
+    <department>HR</department>
+</employee>

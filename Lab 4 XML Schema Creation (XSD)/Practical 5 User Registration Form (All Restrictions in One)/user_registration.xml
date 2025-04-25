@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="user_registration.xsd">
+    <username>alice123</username>
+    <department>IT</department>
+    <email>subarna46@gmail.com</email>
+    <phone>+977-9841940258</phone>
+</user>

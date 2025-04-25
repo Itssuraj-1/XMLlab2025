@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="user">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="username" type="xs:string" />
+
+                <xs:element name="department">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="HR" />
+                            <xs:enumeration value="IT" />
+                            <xs:enumeration value="Finance" />
+                            <xs:enumeration value="Marketing" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                
+
+
+                <xs:element name="email" >
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+
+                <xs:element name="phone">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="\+977-[0-9]{10}"></xs:pattern>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

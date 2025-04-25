@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore>
+    <book category="programming">
+        <title lang="en">Java Complete Reference</title>
+        <author>lan</author>
+        <year>2015</year>
+        <price>30.00</price>
+    </book>
+    <book category="programming">
+        <title lang="en">C# Complete Reference</title>
+        <author>balagurusamy</author>
+        <year>2022</year>
+        <price>29.99</price>
+    </book>
+    <book category="web">
+        <title lang="en">XQuery Kick Start</title>
+        <author>James McGovern</author>
+        <author>Per Bothner</author>
+        <author>Kurt Cagle</author>
+        <author>James Linn</author>
+        <author>Vaidyanathan Nagarajan</author>
+        <year>2003</year>
+        <price>49.99</price>
+    </book>
+    <book category="web" cover="paperback">
+        <title lang="en">Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+</bookstore>
+
+<!--
+
+XPath Queries and Outputs:
+
+XPath Expression	Result
+/bookstore/book/title	All book titles
+/bookstore/book[1]/title	Title of first book
+//book[year > 2010]                 Select books published after 2010
+//book[year < 2000]/title       Titles published before 2000 //book[year='2003']/title       Titles published in 2003
+//book[price <= 30.00]/title       Titles with price less than or equal to 30 //title[@lang='en']	Titles in English //book[@category='web' or @category='programming']      Select books where category="web" or category="programming" //book[@category='web' and @cover='paperback']          Select books where category="web" and cover="paperback" //book[@category='web' and year='2003']                 Select books where category="web" and year="2003"  
+//book[price > 40.00 or year < 2010]
+//book[price > 40.00 or year < 2010]/title  Titles with price > 40 or published before 2010 //book[not(@category='web')]  Select books not in the web category
+-->

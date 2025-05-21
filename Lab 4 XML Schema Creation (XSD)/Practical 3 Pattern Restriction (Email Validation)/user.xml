@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <user xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="user.xsd">
+xsi:noNamespaceSchemaLocation="user.xsd">
     <username>alice123</username>
     <email>alice@example.com</email>
 </user>
